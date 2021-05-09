@@ -1,0 +1,95 @@
+.cover-img {
+	background-image: url("https://wallpaperaccess.com/full/834264.jpg");
+	background-size: cover;
+	height: 70vh;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.side-crop {
+	max-width: 375px;
+	overflow: hidden;
+	margin-left: 100px;
+}
+.side-crop img {
+	max-width: initial; /* Maybe optional. See note below */
+}
+.side-crop {
+	text-indent: -300px;
+	overflow: hidden;
+}
+label {
+	padding-right: 5px;
+	padding-left: 15px;
+}
+
+.card {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	width: 290px;
+}
+.card-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 15px;
+}
+.carousel-item img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+.product-row {
+	padding-top: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.paddingTop {
+	padding-top: 10px;
+}
+.buttonPadding {
+	padding-top: 40px;
+}
+
+.workoutDetails {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.form-control {
+	height: 100% !important;
+}
+
+.heading-div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.select-div {
+	display: flex;
+	justify-content: space-between;
+	flex: 0.4;
+}
+.select-div input {
+	margin-right: 10px;
+}
+
+.multiselect-container {
+	margin-right: 10px;
+}
+
+.navbar-brand {
+	display: flex !important;
+	align-items: center;
+}
+.navbar-brand > img {
+	width: 36px;
+}
+
+.logo-brand {
+	padding-left: 10px;
+}
